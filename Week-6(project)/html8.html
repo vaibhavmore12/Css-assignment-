@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Section</title>
+    <style>
+        body{
+            background-color: #111010;
+        }
+        .avatar-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        img{
+            width: 200px;
+            border-radius: 50%;
+            border: 10px solid#fff;
+            margin-left: -50px;
+        }
+        .avatar-1{
+            z-index: 7;
+        }
+        .avatar-2{
+            z-index: 5;
+        }
+        .avatar-3{
+            z-index: 3;
+        }
+        .avatar-4{
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <section class="avatar-container">
+        <img class="avatar-1" src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&amp;w=256&amp;q=75" alt="Avatar1">
+        <img class="avatar-2" src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&amp;w=640&amp;q=75" alt="Avatar2">
+        <img class="avatar-3" src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&amp;w=256&amp;q=75" alt="Avatar3">
+        <img class="avatar-4" src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&amp;w=640&amp;q=75" alt="Avatar4">
+      </section>
+</body>
+</html>
